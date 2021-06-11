@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0E95222632E4E6008266CE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E95212632E4E6008266CE /* Player.swift */; };
+		CE771DA3261DE709006E3024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE771DA2261DE709006E3024 /* AppDelegate.swift */; };
+		CE771DA5261DE709006E3024 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE771DA4261DE709006E3024 /* SceneDelegate.swift */; };
+		CE771DA7261DE709006E3024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE771DA6261DE709006E3024 /* ViewController.swift */; };
+		CE771DAA261DE709006E3024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE771DA8261DE709006E3024 /* Main.storyboard */; };
+		CE771DAC261DE70B006E3024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE771DAB261DE70B006E3024 /* Assets.xcassets */; };
+		CE771DAF261DE70B006E3024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE771DAD261DE70B006E3024 /* LaunchScreen.storyboard */; };
+		CE771DBA261DE70C006E3024 /* BoulangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE771DB9261DE70C006E3024 /* BoulangerTests.swift */; };
+		CE771DC5261DE70C006E3024 /* BoulangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE771DC4261DE70C006E3024 /* BoulangerUITests.swift */; };
+		CE771DD6261DF7E1006E3024 /* cardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE771DD5261DF7E1006E3024 /* cardViewController.swift */; };
+		CE771DF02621F90F006E3024 /* Boulanger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE771DEE2621F90F006E3024 /* Boulanger.xcdatamodeld */; };
+		CE771DF52621FB30006E3024 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE771DF42621FB30006E3024 /* CoreDataStack.swift */; };
+		CE771DFD2621FB5D006E3024 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE771DFC2621FB5D006E3024 /* CoreDataManager.swift */; };
+		CE771E072621FFDE006E3024 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE771E062621FFDE006E3024 /* PlayersViewController.swift */; };
+		CE95D666262DE25900E2C161 /* playerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95D665262DE25900E2C161 /* playerCollectionViewCell.swift */; };
+		CEF4614C26237DFC00E85326 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4614B26237DFC00E85326 /* UIViewController+alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE771DB6261DE70C006E3024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE771D97261DE709006E3024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE771D9E261DE709006E3024;
+			remoteInfo = Boulanger;
+		};
+		CE771DC1261DE70C006E3024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE771D97261DE709006E3024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE771D9E261DE709006E3024;
+			remoteInfo = Boulanger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE0E95212632E4E6008266CE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "/Users/adammabrouki/Desktop/P12/Le-Boulanger/Boulanger/Boulanger/model/Player.swift"; sourceTree = "<absolute>"; };
+		CE771D9F261DE709006E3024 /* Boulanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boulanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE771DA2261DE709006E3024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE771DA4261DE709006E3024 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE771DA6261DE709006E3024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/adammabrouki/Desktop/P12/Le-Boulanger/Boulanger/Boulanger/ViewController.swift"; sourceTree = "<absolute>"; };
+		CE771DA9261DE709006E3024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE771DAB261DE70B006E3024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE771DAE261DE70B006E3024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE771DB0261DE70B006E3024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE771DB5261DE70C006E3024 /* BoulangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoulangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE771DB9261DE70C006E3024 /* BoulangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulangerTests.swift; sourceTree = "<group>"; };
+		CE771DBB261DE70C006E3024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE771DC0261DE70C006E3024 /* BoulangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoulangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE771DC4261DE70C006E3024 /* BoulangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulangerUITests.swift; sourceTree = "<group>"; };
+		CE771DC6261DE70C006E3024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE771DD5261DF7E1006E3024 /* cardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = cardViewController.swift; path = "/Users/adammabrouki/Desktop/P12/Le-Boulanger/Boulanger/Boulanger/cardViewController.swift"; sourceTree = "<absolute>"; };
+		CE771DEF2621F90F006E3024 /* BoulangerDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoulangerDataModel.xcdatamodel; sourceTree = "<group>"; };
+		CE771DF42621FB30006E3024 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CE771DFC2621FB5D006E3024 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = "/Users/adammabrouki/Desktop/P12/Le-Boulanger/Boulanger/Boulanger/CoreData/CoreDataManager.swift"; sourceTree = "<absolute>"; };
+		CE771E062621FFDE006E3024 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		CE95D665262DE25900E2C161 /* playerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEF4614B26237DFC00E85326 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE771D9C261DE709006E3024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE771DB2261DE70C006E3024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE771DBD261DE70C006E3024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE0E95262632E4F4008266CE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE0E95212632E4E6008266CE /* Player.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE771D96261DE709006E3024 = {
+			isa = PBXGroup;
+			children = (
+				CE771DA1261DE709006E3024 /* Boulanger */,
+				CE771DB8261DE70C006E3024 /* BoulangerTests */,
+				CE771DC3261DE70C006E3024 /* BoulangerUITests */,
+				CE771DA0261DE709006E3024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE771DA0261DE709006E3024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE771D9F261DE709006E3024 /* Boulanger.app */,
+				CE771DB5261DE70C006E3024 /* BoulangerTests.xctest */,
+				CE771DC0261DE70C006E3024 /* BoulangerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE771DA1261DE709006E3024 /* Boulanger */ = {
+			isa = PBXGroup;
+			children = (
+				CE771DA4261DE709006E3024 /* SceneDelegate.swift */,
+				CE771DA2261DE709006E3024 /* AppDelegate.swift */,
+				CEF4614B26237DFC00E85326 /* UIViewController+alert.swift */,
+				CE0E95262632E4F4008266CE /* model */,
+				CE771E012621FC65006E3024 /* CoreData */,
+				CE771E052621FD05006E3024 /* Controller */,
+				CE771DA8261DE709006E3024 /* Main.storyboard */,
+				CE95D665262DE25900E2C161 /* playerCollectionViewCell.swift */,
+				CE771DAB261DE70B006E3024 /* Assets.xcassets */,
+				CE771DAD261DE70B006E3024 /* LaunchScreen.storyboard */,
+				CE771DB0261DE70B006E3024 /* Info.plist */,
+			);
+			path = Boulanger;
+			sourceTree = "<group>";
+		};
+		CE771DB8261DE70C006E3024 /* BoulangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE771DB9261DE70C006E3024 /* BoulangerTests.swift */,
+				CE771DBB261DE70C006E3024 /* Info.plist */,
+			);
+			path = BoulangerTests;
+			sourceTree = "<group>";
+		};
+		CE771DC3261DE70C006E3024 /* BoulangerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE771DC4261DE70C006E3024 /* BoulangerUITests.swift */,
+				CE771DC6261DE70C006E3024 /* Info.plist */,
+			);
+			path = BoulangerUITests;
+			sourceTree = "<group>";
+		};
+		CE771E012621FC65006E3024 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE771DFC2621FB5D006E3024 /* CoreDataManager.swift */,
+				CE771DF42621FB30006E3024 /* CoreDataStack.swift */,
+				CE771DEE2621F90F006E3024 /* Boulanger.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CE771E052621FD05006E3024 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE771DD5261DF7E1006E3024 /* cardViewController.swift */,
+				CE771DA6261DE709006E3024 /* ViewController.swift */,
+				CE771E062621FFDE006E3024 /* PlayersViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE771D9E261DE709006E3024 /* Boulanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE771DC9261DE70C006E3024 /* Build configuration list for PBXNativeTarget "Boulanger" */;
+			buildPhases = (
+				CE771D9B261DE709006E3024 /* Sources */,
+				CE771D9C261DE709006E3024 /* Frameworks */,
+				CE771D9D261DE709006E3024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boulanger;
+			productName = Boulanger;
+			productReference = CE771D9F261DE709006E3024 /* Boulanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE771DB4261DE70C006E3024 /* BoulangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE771DCC261DE70C006E3024 /* Build configuration list for PBXNativeTarget "BoulangerTests" */;
+			buildPhases = (
+				CE771DB1261DE70C006E3024 /* Sources */,
+				CE771DB2261DE70C006E3024 /* Frameworks */,
+				CE771DB3261DE70C006E3024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE771DB7261DE70C006E3024 /* PBXTargetDependency */,
+			);
+			name = BoulangerTests;
+			productName = BoulangerTests;
+			productReference = CE771DB5261DE70C006E3024 /* BoulangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE771DBF261DE70C006E3024 /* BoulangerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE771DCF261DE70C006E3024 /* Build configuration list for PBXNativeTarget "BoulangerUITests" */;
+			buildPhases = (
+				CE771DBC261DE70C006E3024 /* Sources */,
+				CE771DBD261DE70C006E3024 /* Frameworks */,
+				CE771DBE261DE70C006E3024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE771DC2261DE70C006E3024 /* PBXTargetDependency */,
+			);
+			name = BoulangerUITests;
+			productName = BoulangerUITests;
+			productReference = CE771DC0261DE70C006E3024 /* BoulangerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE771D97261DE709006E3024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CE771D9E261DE709006E3024 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					CE771DB4261DE70C006E3024 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CE771D9E261DE709006E3024;
+					};
+					CE771DBF261DE70C006E3024 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CE771D9E261DE709006E3024;
+					};
+				};
+			};
+			buildConfigurationList = CE771D9A261DE709006E3024 /* Build configuration list for PBXProject "Boulanger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE771D96261DE709006E3024;
+			productRefGroup = CE771DA0261DE709006E3024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE771D9E261DE709006E3024 /* Boulanger */,
+				CE771DB4261DE70C006E3024 /* BoulangerTests */,
+				CE771DBF261DE70C006E3024 /* BoulangerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE771D9D261DE709006E3024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE771DAF261DE70B006E3024 /* LaunchScreen.storyboard in Resources */,
+				CE771DAC261DE70B006E3024 /* Assets.xcassets in Resources */,
+				CE771DAA261DE709006E3024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE771DB3261DE70C006E3024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE771DBE261DE70C006E3024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE771D9B261DE709006E3024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE771DD6261DF7E1006E3024 /* cardViewController.swift in Sources */,
+				CE771DF02621F90F006E3024 /* Boulanger.xcdatamodeld in Sources */,
+				CE771DA7261DE709006E3024 /* ViewController.swift in Sources */,
+				CE95D666262DE25900E2C161 /* playerCollectionViewCell.swift in Sources */,
+				CEF4614C26237DFC00E85326 /* UIViewController+alert.swift in Sources */,
+				CE0E95222632E4E6008266CE /* Player.swift in Sources */,
+				CE771DF52621FB30006E3024 /* CoreDataStack.swift in Sources */,
+				CE771DA3261DE709006E3024 /* AppDelegate.swift in Sources */,
+				CE771E072621FFDE006E3024 /* PlayersViewController.swift in Sources */,
+				CE771DFD2621FB5D006E3024 /* CoreDataManager.swift in Sources */,
+				CE771DA5261DE709006E3024 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE771DB1261DE70C006E3024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE771DBA261DE70C006E3024 /* BoulangerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE771DBC261DE70C006E3024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE771DC5261DE70C006E3024 /* BoulangerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE771DB7261DE70C006E3024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE771D9E261DE709006E3024 /* Boulanger */;
+			targetProxy = CE771DB6261DE70C006E3024 /* PBXContainerItemProxy */;
+		};
+		CE771DC2261DE70C006E3024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE771D9E261DE709006E3024 /* Boulanger */;
+			targetProxy = CE771DC1261DE70C006E3024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE771DA8261DE709006E3024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE771DA9261DE709006E3024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE771DAD261DE70B006E3024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE771DAE261DE70B006E3024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE771DC7261DE70C006E3024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE771DC8261DE70C006E3024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE771DCA261DE70C006E3024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NYLP3F6GN;
+				INFOPLIST_FILE = Boulanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adammab.Boulanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE771DCB261DE70C006E3024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NYLP3F6GN;
+				INFOPLIST_FILE = Boulanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adammab.Boulanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE771DCD261DE70C006E3024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NYLP3F6GN;
+				INFOPLIST_FILE = BoulangerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adammab.BoulangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boulanger.app/Boulanger";
+			};
+			name = Debug;
+		};
+		CE771DCE261DE70C006E3024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NYLP3F6GN;
+				INFOPLIST_FILE = BoulangerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adammab.BoulangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boulanger.app/Boulanger";
+			};
+			name = Release;
+		};
+		CE771DD0261DE70C006E3024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NYLP3F6GN;
+				INFOPLIST_FILE = BoulangerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adammab.BoulangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boulanger;
+			};
+			name = Debug;
+		};
+		CE771DD1261DE70C006E3024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NYLP3F6GN;
+				INFOPLIST_FILE = BoulangerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adammab.BoulangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boulanger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE771D9A261DE709006E3024 /* Build configuration list for PBXProject "Boulanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE771DC7261DE70C006E3024 /* Debug */,
+				CE771DC8261DE70C006E3024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE771DC9261DE70C006E3024 /* Build configuration list for PBXNativeTarget "Boulanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE771DCA261DE70C006E3024 /* Debug */,
+				CE771DCB261DE70C006E3024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE771DCC261DE70C006E3024 /* Build configuration list for PBXNativeTarget "BoulangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE771DCD261DE70C006E3024 /* Debug */,
+				CE771DCE261DE70C006E3024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE771DCF261DE70C006E3024 /* Build configuration list for PBXNativeTarget "BoulangerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE771DD0261DE70C006E3024 /* Debug */,
+				CE771DD1261DE70C006E3024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE771DEE2621F90F006E3024 /* Boulanger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE771DEF2621F90F006E3024 /* BoulangerDataModel.xcdatamodel */,
+			);
+			currentVersion = CE771DEF2621F90F006E3024 /* BoulangerDataModel.xcdatamodel */;
+			path = Boulanger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE771D97261DE709006E3024 /* Project object */;
+}
