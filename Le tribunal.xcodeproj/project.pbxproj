@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECA7C852905A5FB00E7391D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7C842905A5FB00E7391D /* Tests_iOS.swift */; };
+		CECA7C872905A5FB00E7391D /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7C862905A5FB00E7391D /* Tests_iOSLaunchTests.swift */; };
+		CECA7C912905A5FB00E7391D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7C902905A5FB00E7391D /* Tests_macOS.swift */; };
+		CECA7C932905A5FB00E7391D /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7C922905A5FB00E7391D /* Tests_macOSLaunchTests.swift */; };
+		CECA7C942905A5FB00E7391D /* Le_tribunalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7C6C2905A5FA00E7391D /* Le_tribunalApp.swift */; };
+		CECA7C952905A5FB00E7391D /* Le_tribunalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7C6C2905A5FA00E7391D /* Le_tribunalApp.swift */; };
+		CECA7C962905A5FB00E7391D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7C6D2905A5FA00E7391D /* ContentView.swift */; };
+		CECA7C972905A5FB00E7391D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7C6D2905A5FA00E7391D /* ContentView.swift */; };
+		CECA7C982905A5FB00E7391D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA7C6E2905A5FB00E7391D /* Assets.xcassets */; };
+		CECA7C992905A5FB00E7391D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA7C6E2905A5FB00E7391D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECA7C812905A5FB00E7391D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECA7C672905A5FA00E7391D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECA7C722905A5FB00E7391D;
+			remoteInfo = "Le tribunal (iOS)";
+		};
+		CECA7C8D2905A5FB00E7391D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECA7C672905A5FA00E7391D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECA7C782905A5FB00E7391D;
+			remoteInfo = "Le tribunal (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECA7C6C2905A5FA00E7391D /* Le_tribunalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Le_tribunalApp.swift; sourceTree = "<group>"; };
+		CECA7C6D2905A5FA00E7391D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CECA7C6E2905A5FB00E7391D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECA7C732905A5FB00E7391D /* Le tribunal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le tribunal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA7C792905A5FB00E7391D /* Le tribunal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le tribunal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA7C7B2905A5FB00E7391D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CECA7C802905A5FB00E7391D /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA7C842905A5FB00E7391D /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		CECA7C862905A5FB00E7391D /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		CECA7C8C2905A5FB00E7391D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA7C902905A5FB00E7391D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		CECA7C922905A5FB00E7391D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECA7C702905A5FB00E7391D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA7C762905A5FB00E7391D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA7C7D2905A5FB00E7391D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA7C892905A5FB00E7391D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECA7C662905A5FA00E7391D = {
+			isa = PBXGroup;
+			children = (
+				CECA7C6B2905A5FA00E7391D /* Shared */,
+				CECA7C7A2905A5FB00E7391D /* macOS */,
+				CECA7C832905A5FB00E7391D /* Tests iOS */,
+				CECA7C8F2905A5FB00E7391D /* Tests macOS */,
+				CECA7C742905A5FB00E7391D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECA7C6B2905A5FA00E7391D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CECA7C6C2905A5FA00E7391D /* Le_tribunalApp.swift */,
+				CECA7C6D2905A5FA00E7391D /* ContentView.swift */,
+				CECA7C6E2905A5FB00E7391D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CECA7C742905A5FB00E7391D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECA7C732905A5FB00E7391D /* Le tribunal.app */,
+				CECA7C792905A5FB00E7391D /* Le tribunal.app */,
+				CECA7C802905A5FB00E7391D /* Tests iOS.xctest */,
+				CECA7C8C2905A5FB00E7391D /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECA7C7A2905A5FB00E7391D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CECA7C7B2905A5FB00E7391D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		CECA7C832905A5FB00E7391D /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CECA7C842905A5FB00E7391D /* Tests_iOS.swift */,
+				CECA7C862905A5FB00E7391D /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		CECA7C8F2905A5FB00E7391D /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CECA7C902905A5FB00E7391D /* Tests_macOS.swift */,
+				CECA7C922905A5FB00E7391D /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECA7C722905A5FB00E7391D /* Le tribunal (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECA7C9C2905A5FB00E7391D /* Build configuration list for PBXNativeTarget "Le tribunal (iOS)" */;
+			buildPhases = (
+				CECA7C6F2905A5FB00E7391D /* Sources */,
+				CECA7C702905A5FB00E7391D /* Frameworks */,
+				CECA7C712905A5FB00E7391D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Le tribunal (iOS)";
+			productName = "Le tribunal (iOS)";
+			productReference = CECA7C732905A5FB00E7391D /* Le tribunal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECA7C782905A5FB00E7391D /* Le tribunal (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECA7C9F2905A5FB00E7391D /* Build configuration list for PBXNativeTarget "Le tribunal (macOS)" */;
+			buildPhases = (
+				CECA7C752905A5FB00E7391D /* Sources */,
+				CECA7C762905A5FB00E7391D /* Frameworks */,
+				CECA7C772905A5FB00E7391D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Le tribunal (macOS)";
+			productName = "Le tribunal (macOS)";
+			productReference = CECA7C792905A5FB00E7391D /* Le tribunal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECA7C7F2905A5FB00E7391D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECA7CA22905A5FB00E7391D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				CECA7C7C2905A5FB00E7391D /* Sources */,
+				CECA7C7D2905A5FB00E7391D /* Frameworks */,
+				CECA7C7E2905A5FB00E7391D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECA7C822905A5FB00E7391D /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = CECA7C802905A5FB00E7391D /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CECA7C8B2905A5FB00E7391D /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECA7CA52905A5FB00E7391D /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				CECA7C882905A5FB00E7391D /* Sources */,
+				CECA7C892905A5FB00E7391D /* Frameworks */,
+				CECA7C8A2905A5FB00E7391D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECA7C8E2905A5FB00E7391D /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = CECA7C8C2905A5FB00E7391D /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECA7C672905A5FA00E7391D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CECA7C722905A5FB00E7391D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CECA7C782905A5FB00E7391D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CECA7C7F2905A5FB00E7391D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CECA7C722905A5FB00E7391D;
+					};
+					CECA7C8B2905A5FB00E7391D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CECA7C782905A5FB00E7391D;
+					};
+				};
+			};
+			buildConfigurationList = CECA7C6A2905A5FA00E7391D /* Build configuration list for PBXProject "Le tribunal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECA7C662905A5FA00E7391D;
+			productRefGroup = CECA7C742905A5FB00E7391D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECA7C722905A5FB00E7391D /* Le tribunal (iOS) */,
+				CECA7C782905A5FB00E7391D /* Le tribunal (macOS) */,
+				CECA7C7F2905A5FB00E7391D /* Tests iOS */,
+				CECA7C8B2905A5FB00E7391D /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECA7C712905A5FB00E7391D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA7C982905A5FB00E7391D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA7C772905A5FB00E7391D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA7C992905A5FB00E7391D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA7C7E2905A5FB00E7391D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA7C8A2905A5FB00E7391D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECA7C6F2905A5FB00E7391D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA7C962905A5FB00E7391D /* ContentView.swift in Sources */,
+				CECA7C942905A5FB00E7391D /* Le_tribunalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA7C752905A5FB00E7391D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA7C972905A5FB00E7391D /* ContentView.swift in Sources */,
+				CECA7C952905A5FB00E7391D /* Le_tribunalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA7C7C2905A5FB00E7391D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA7C872905A5FB00E7391D /* Tests_iOSLaunchTests.swift in Sources */,
+				CECA7C852905A5FB00E7391D /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA7C882905A5FB00E7391D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA7C932905A5FB00E7391D /* Tests_macOSLaunchTests.swift in Sources */,
+				CECA7C912905A5FB00E7391D /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECA7C822905A5FB00E7391D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECA7C722905A5FB00E7391D /* Le tribunal (iOS) */;
+			targetProxy = CECA7C812905A5FB00E7391D /* PBXContainerItemProxy */;
+		};
+		CECA7C8E2905A5FB00E7391D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECA7C782905A5FB00E7391D /* Le tribunal (macOS) */;
+			targetProxy = CECA7C8D2905A5FB00E7391D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CECA7C9A2905A5FB00E7391D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECA7C9B2905A5FB00E7391D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CECA7C9D2905A5FB00E7391D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXNVA7KDF5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adam.mabrouki.Le-tribunal";
+				PRODUCT_NAME = "Le tribunal";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECA7C9E2905A5FB00E7391D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXNVA7KDF5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adam.mabrouki.Le-tribunal";
+				PRODUCT_NAME = "Le tribunal";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECA7CA02905A5FB00E7391D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXNVA7KDF5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adam.mabrouki.Le-tribunal";
+				PRODUCT_NAME = "Le tribunal";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CECA7CA12905A5FB00E7391D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXNVA7KDF5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adam.mabrouki.Le-tribunal";
+				PRODUCT_NAME = "Le tribunal";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CECA7CA32905A5FB00E7391D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXNVA7KDF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adam.mabrouki.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Le tribunal (iOS)";
+			};
+			name = Debug;
+		};
+		CECA7CA42905A5FB00E7391D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXNVA7KDF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adam.mabrouki.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Le tribunal (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECA7CA62905A5FB00E7391D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXNVA7KDF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adam.mabrouki.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Le tribunal (macOS)";
+			};
+			name = Debug;
+		};
+		CECA7CA72905A5FB00E7391D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXNVA7KDF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adam.mabrouki.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Le tribunal (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECA7C6A2905A5FA00E7391D /* Build configuration list for PBXProject "Le tribunal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA7C9A2905A5FB00E7391D /* Debug */,
+				CECA7C9B2905A5FB00E7391D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECA7C9C2905A5FB00E7391D /* Build configuration list for PBXNativeTarget "Le tribunal (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA7C9D2905A5FB00E7391D /* Debug */,
+				CECA7C9E2905A5FB00E7391D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECA7C9F2905A5FB00E7391D /* Build configuration list for PBXNativeTarget "Le tribunal (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA7CA02905A5FB00E7391D /* Debug */,
+				CECA7CA12905A5FB00E7391D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECA7CA22905A5FB00E7391D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA7CA32905A5FB00E7391D /* Debug */,
+				CECA7CA42905A5FB00E7391D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECA7CA52905A5FB00E7391D /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA7CA62905A5FB00E7391D /* Debug */,
+				CECA7CA72905A5FB00E7391D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECA7C672905A5FA00E7391D /* Project object */;
+}
