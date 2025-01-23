@@ -11,7 +11,7 @@ import SwiftUI
 struct Le_tribunalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayerRegistrationView()
         }
     }
 }

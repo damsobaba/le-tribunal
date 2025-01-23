@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "102420383-beau-boulanger-en-uniforme-professionnel-et-toque-tenant-des-baguettes-personnage-de-dessin-animé.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

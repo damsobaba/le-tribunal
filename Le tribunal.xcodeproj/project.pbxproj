@@ -17,6 +17,8 @@
 		CECA7C972905A5FB00E7391D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7C6D2905A5FA00E7391D /* ContentView.swift */; };
 		CECA7C982905A5FB00E7391D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA7C6E2905A5FB00E7391D /* Assets.xcassets */; };
 		CECA7C992905A5FB00E7391D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA7C6E2905A5FB00E7391D /* Assets.xcassets */; };
+		CECA7CA92905AE3C00E7391D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7CA82905AE3C00E7391D /* Player.swift */; };
+		CECA7CAA2905AE3C00E7391D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7CA82905AE3C00E7391D /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		CECA7C8C2905A5FB00E7391D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECA7C902905A5FB00E7391D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CECA7C922905A5FB00E7391D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		CECA7CA82905AE3C00E7391D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				CECA7C6C2905A5FA00E7391D /* Le_tribunalApp.swift */,
 				CECA7C6D2905A5FA00E7391D /* ContentView.swift */,
+				CECA7CA82905AE3C00E7391D /* Player.swift */,
 				CECA7C6E2905A5FB00E7391D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -300,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECA7C962905A5FB00E7391D /* ContentView.swift in Sources */,
+				CECA7CA92905AE3C00E7391D /* Player.swift in Sources */,
 				CECA7C942905A5FB00E7391D /* Le_tribunalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECA7C972905A5FB00E7391D /* ContentView.swift in Sources */,
+				CECA7CAA2905AE3C00E7391D /* Player.swift in Sources */,
 				CECA7C952905A5FB00E7391D /* Le_tribunalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
