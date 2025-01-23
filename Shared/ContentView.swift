@@ -1,5 +1,6 @@
 import SwiftUI
 
+
 struct PlayerRegistrationView: View {
     @State private var players: [PlayerWithCard] = [] // List of players and their cards
     @State private var currentPlayerName = ""
@@ -16,7 +17,7 @@ struct PlayerRegistrationView: View {
                 .ignoresSafeArea()
 
             VStack {
-                // Player name input
+                // Fixed TextField for player name
                 TextField("Enter player name", text: $currentPlayerName)
                     .padding()
                     .background(Color.white)
@@ -45,12 +46,16 @@ struct PlayerRegistrationView: View {
                 .disabled(currentPlayerName.isEmpty)
                 .padding()
 
-                // Grid view of players
-                PlayerGridView(players: players) { card in
-                    // Store the selected card to reveal later
-                    cardToReveal = card
-                    showConfirmation = true // Show confirmation alert
+                // Scrollable Grid of Players
+                ScrollView {
+                    PlayerGridView(players: players) { card in
+                        // Store the selected card to reveal later
+                        cardToReveal = card
+                        showConfirmation = true // Show confirmation alert
+                    }
+                    .padding(.top) // To add some space between the grid and button
                 }
+                .padding(.top)
             }
             .padding()
         }
